@@ -30,7 +30,7 @@
         </div>
         <form class="login100-form validate-form flex-sb flex-w">
           <span class="login100-form-title p-b-23">
-            Sign In With
+            Sign up With
           </span>
 
           <a href="#" class="btn-face m-b-20">
@@ -43,75 +43,88 @@
             Google
           </a>
 
-          <div class="row">
-            <div class="col-sm">
-              <div class="p-t-15 p-b-9">
-                <span class="txt1">
-                  First Name
-                </span>
-              </div>
-              <div class="wrap-input100 validate-input" data-validate="First Name is required">
-                <input class="input100" type="text" name="first_name">
-                <span class="focus-input100"></span>
-              </div>
-            </div>
-
-            <div class="col-sm">
-              <div class="p-t-15 p-b-9">
-                <span class="txt1">
-                  Middle Name
-                </span>
-              </div>
-              <div class="wrap-input100">
-                <input class="input100" type="text" name="middle_name">
-                <span class="focus-input100"></span>
-              </div>
-            </div>
-
-            <div class="col-sm">
-              <div class="p-t-15 p-b-9">
-                <span class="txt1">
-                  Last Name
-                </span>
-              </div>
-              <div class="wrap-input100 validate-input" data-validate="Last Name is required">
-                <input class="input100" type="text" name="last_name">
-                <span class="focus-input100"></span>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm">
+                <div class="p-t-15 p-b-9">
+                  <span class="txt1">
+                    First Name
+                  </span>
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="First Name is required">
+                  <input class="input100" type="text" name="first_name">
+                  <span class="focus-input100"></span>
+                </div>
               </div>
 
+              <div class="col-sm">
+                <div class="p-t-15 p-b-9">
+                  <span class="txt1">
+                    Middle Name
+                  </span>
+                </div>
+                <div class="wrap-input100">
+                  <input class="input100" type="text" name="middle_name">
+                  <span class="focus-input100"></span>
+                </div>
+              </div>
+
+              <div class="col-sm">
+                <div class="p-t-15 p-b-9">
+                  <span class="txt1">
+                    Last Name
+                  </span>
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="Last Name is required">
+                  <input class="input100" type="text" name="last_name">
+                  <span class="focus-input100"></span>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="row">
-
-            <div class="col-sm">
-              <div class="p-t-15 p-b-9">
-                <span class="txt1">
-                  Date Of Birth
-                </span>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm">
+                <div class="p-t-15 p-b-9">
+                  <span class="txt1">
+                    Date Of Birth
+                  </span>
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="DOB is required">
+                  <input class="input100" type="date" name="date_of_birth">
+                  <span class="focus-input100"></span>
+                </div>
               </div>
-              <div class="wrap-input100 validate-input" data-validate="DOB is required">
-                <input class="input100" type="date" name="date_of_birth">
-                <span class="focus-input100"></span>
+
+              <div class="col-sm">
+                <div class="p-t-15 p-b-9">
+                  <span class="txt1">
+                    Gender
+                  </span>
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="Gender is required">
+                  <select class="custom-select input100" required>
+                    <option selected>Select..</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Other</option>
+                  </select>
+                  <span class="focus-input100"></span>
+                </div>
               </div>
             </div>
+          </div>
 
-            <div class="col-sm">
-              <div class="p-t-15 p-b-9">
-                <span class="txt1">
-                  Gender
-                </span>
-              </div>
-              <div class="wrap-input100 validate-input" data-validate="Username is required">
-                <select class="custom-select input100">
-                  <option selected>Select..</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-                <span class="focus-input100"></span>
-              </div>
-            </div>
+
+          <div class="p-t-15 p-b-9">
+            <span class="txt1">
+              Email
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate="Email is required">
+            <input class="input100" type="email" name="email">
+            <span class="focus-input100"></span>
           </div>
 
           <div class="p-t-15 p-b-9">
@@ -128,19 +141,27 @@
             <span class="txt1">
               Password
             </span>
-
-            <a href="#" class="txt2 bo1 m-l-5">
-              Forgot?
-            </a>
           </div>
           <div class="wrap-input100 validate-input" data-validate="Password is required">
             <input class="input100" type="password" name="pass">
             <span class="focus-input100"></span>
           </div>
 
+
+          <div class="p-t-13 p-b-9">
+            <span class="txt1">
+              Confirm Password
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate="Password is required">
+            <input class="input100" type="password" name="confirm_pass">
+            <span class="focus-input100"></span>
+          </div>
+
+
           <div class="container-login100-form-btn m-t-17">
             <button class="login100-form-btn">
-              Sign In
+              Sign Up
             </button>
           </div>
 
