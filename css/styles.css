@@ -49,7 +49,10 @@
   .cod-img {
     width: 40%;
   }
-
+  .col-sm{
+    padding: 0;
+    text-align: left;
+  }
   .col-sm-auto {
     width: 30%;
     padding-bottom: 5%;
@@ -62,9 +65,9 @@
 
 @media (min-width:576px) {
 
-  /* html,body{
+  html,body{
     background: linear-gradient(to top left, #ffffff 21%, #66bfbf 91%);
-  } */
+  }
   .navbar {
     padding: 0 10% 5%;
   }
@@ -99,6 +102,10 @@
   .soc-img {
     width: 40%;
   }
+  .col-sm{
+    text-align: center;
+  }
+
 }
 
 html, body {
@@ -319,4 +326,8 @@ a:hover {
     margin: 0;
     -webkit-transition: .2s all;
     transition: .2s all;
+}
+
+.name100{
+  padding: 4px;
 }

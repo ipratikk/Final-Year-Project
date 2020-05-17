@@ -37,6 +37,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
+  background: linear-gradient(to bottom right, #16222a 21%, #3a6073 91%);
 }
 
 /*---------------------------------------------*/
@@ -201,7 +202,7 @@ iframe {
   width: 100%;
   display: block;
   font-family: Montserrat-Medium;
-  font-size: 39px;
+  font-size: 25px;
   color: #555555;
   line-height: 1.2;
   text-align: center;
@@ -223,8 +224,8 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  width: calc((100% - 20px) / 2);
-  height: 70px;
+  width: calc((100% - 40px) / 2);
+  height: 50px;
   border-radius: 10px;
   box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
@@ -303,21 +304,28 @@ iframe {
   position: relative;
   background-color: #f7f7f7;
   border: 1px solid #e6e6e6;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
+.wrap-input50 {
+  width: 50%;
+  position: relative;
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
 
 /*---------------------------------------------*/
 .input100 {
   font-family: Poppins-Regular;
   color: #333333;
   line-height: 1.2;
-  font-size: 18px;
+  font-size: 12px;
 
   display: block;
   width: 100%;
   background: transparent;
-  height: 60px;
+  height: 30px;
   padding: 0 20px;
 }
 /*------------------------------------------------------------------
