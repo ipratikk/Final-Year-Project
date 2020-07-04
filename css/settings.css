@@ -1,0 +1,88 @@
+body {
+  color: white;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.active {
+  border: white;
+}
+
+.col-sm-5.wrap-login100 {
+  padding: 0;
+  border-radius: 10px;
+  margin: 0 4%;
+}
+
+.navbar {
+  padding-right: 20px;
+}
+
+.tab:hover {
+  transform: scale(1.0);
+}
+
+label {
+  margin-bottom: .3rem;
+}
+
+.form-check-label {
+  display: inline-block;
+}
+
+.nav-link {
+  color: black;
+}
+
+.input100 {
+  background-color: #f7f7f7;
+  padding: 0 7px;
+}
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.72);
+}
+
+a {
+  color: #66BFBF;
+  font-size: 1rem;
+}
+
+.soc-ico {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.btn-logout {
+  background: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.5rem 0 !important;
+}
+
+.panel-heading {
+  font-size: 1.3rem;
+}
+.text-right{
+  color: black;
+}
+
+@media (max-width:576px) {
+  .divide {
+    padding: 10%;
+  }
+
+  [class^="col-sm"] {
+    margin-top: 8%;
+  }
+
+  .col-sm-5.wrap-login100{
+    margin: 8% 0 0;
+  }
+}

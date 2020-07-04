@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research-lab</title>
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/6899c61b13.js"></script>
+  <script src="https://use.fontawesome.com/5a8a7bb461.js"></script>
+
+  <!-- Bootstrap sript -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- CSS Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/settings.css">
+
+</head>
+
+
+<body>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href=""> <img src="images/logo24.png" class="d-inline-block align-top nav-logo" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="dashboard.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active btn btn-logout" href="index.html">Logout</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row divide">
+      </div>
+      <div class="row">
+
+        <div class="col-sm-3">
+          <div class="text-center">
+            <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
+            <h6 class="p-t-30 p-b-40">Upload a different photo...</h6>
+            <input type="file" class="text-center center-block file-upload" id="inputProfilePic">
+          </div>
+
+          <div class="panel panel-default m-t-40">
+            <div class="panel-heading">Website <i class="fa fa-link fa-1x"></i></div>
+            <div class="panel-body"><a href="http://ipratikk.github.io/CV">ipratikk.github.io</a></div>
+          </div>
+
+          <div class="panel panel-default m-t-30">
+            <div class="panel-heading">Social Media</div>
+            <div class="panel-body p-t-20">
+              <a class="soc-ico" href="#"><i class="fa fa-github fa-2x p-r-15"></i></a>
+              <a class="soc-ico" href=""><i class="fa fa-facebook fa-2x p-r-15"></i></a>
+              <a class="soc-ico" href=""><i class="fa fa-twitter fa-2x p-r-15"></i></a>
+              <a class="soc-ico" href=""><i class="fa fa-stack-overflow fa-2x p-r-15"></i></a>
+              <a class="soc-ico" href=""><i class="fas fa-blog fa-2x"></i></a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-5 wrap-login100">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active tab" id="nav-personal-tab" data-toggle="tab" href="#nav-personal" role="tab" aria-controls="nav-personal" aria-selected="true">Personal</a>
+              <a class="nav-item nav-link tab" id="nav-academic-tab" data-toggle="tab" href="#nav-academic" role="tab" aria-controls="nav-academic" aria-selected="false">Academic</a>
+              <a class="nav-item nav-link tab" id="nav-social-tab" data-toggle="tab" href="#nav-social" role="tab" aria-controls="nav-social" aria-selected="false">Social</a>
+            </div>
+          </nav>
+
+          <div class="tab-content" id="nav-tabContent">
+
+            <div class="tab-pane fade show active" id="nav-personal" role="tabpanel" aria-labelledby="nav-personal-tab">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="inputFname">First Name</label>
+                    <input type="text" class="form-control input100 " id="inputFname" placeholder="first name">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputMname">Middle Name</label>
+                    <input type="text" class="form-control input100 " id="inputMname" placeholder="middle name">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputLname">Last Name</label>
+                    <input type="text" class="form-control input100 " id="inputLname" placeholder="last name">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4 offset-md-1">
+                    <label for="inputDOB">Date of Birth</label>
+                    <input class="input100  form-control" type="date" id="inputDOB" placeholder="">
+                  </div>
+                  <div class="form-group offset-md-1 col-md-6">
+                    <label for="inputGender">Gender</label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline1">Female</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline2">Male</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline3">Other</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control input100 " id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control input100 " id="inputPassword4" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control input100 " id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control input100 " id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCountry">Country</label>
+                    <select id="inputCountry" class="form-control input100 ">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control input100 ">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control input100 " id="inputCity">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control input100 " id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    I, confirm the changes made to the profile
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-md" id="save_btn">Save</button>
+                <button type="submit" class="btn btn-primary btn-md" id="cancel_btn">Cancel</button>
+              </form>
+            </div>
+
+
+            <div class="tab-pane fade" id="nav-academic" role="tabpanel" aria-labelledby="nav-academic-tab">
+
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputInstitute">Institute</label>
+                    <input type="text" class="form-control input100 " id="inputInstitute" placeholder="University Of Engineering & Management, Kolkata">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputGradYear">Graduation Year</label>
+                    <select class="form-control input100 " id="inputGradYear">
+                      <option selected>2020</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputDegree">Degree</label>
+                    <select class="form-control input100 " id="inputDegree">
+                      <option selected>Choose</option>
+                      <option>..</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputSpecialisation">Specialisation</label>
+                    <select class="form-control input100 " id="inputSpecialisation">
+                      <option selected>Choose</option>
+                      <option>..</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-2">
+                    <label for="inputCGPA">CGPA</label>
+                    <input type="number" step="0.01" min="0.00" max="10.00" class="form-control input100 " id="inputCGPA" placeholder="5.0">
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputScale">Scale</label>
+                    <input type="number" step="0.01" class="form-control input100 " id="inputScale" placeholder="10.0">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I, confirm the changes made to the profile
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="save_btn">Save</button>
+                <button type="submit" class="btn btn-primary btn-md" id="cancel_btn">Cancel</button>
+              </form>
+            </div>
+
+            <div class="tab-pane fade" id="nav-social" role="tabpanel" aria-labelledby="nav-social-tab">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md">
+
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <ul class="list-group">
+            <li class="list-group-item text-muted">Activity <i class="fa fa-dashboard fa-1x"></i></li>
+            <li class="list-group-item text-right"><span class="pull-left" id="cnt_post"><strong>Posts</strong></span> 37</li>
+            <li class="list-group-item text-right"><span class="pull-left" id="cnt_follower"><strong>Followers</strong></span> 78</li>
+            <li class="list-group-item text-right"><span class="pull-left" id="cnt_likes"><strong>Likes</strong></span> 13</li>
+            <li class="list-group-item text-right"><span class="pull-left" id="cnt_rating"><strong>Rating</strong></span> 125</li>
+            <li class="list-group-item text-right"><span class="pull-left" id="cnt_pending_req"><strong>Pending Requests</strong></span> 25</li>
+
+          </ul>
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>
