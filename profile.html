@@ -184,10 +184,7 @@
                   </div>
                   <div class="form-group col-md-3">
                     <label for="inputGradYear">Graduation Year</label>
-                    <select class="form-control input100 " id="inputGradYear">
-                      <option selected>2020</option>
-                      <option>...</option>
-                    </select>
+                    <select class="form-control input100 year" id="inputGradYear"></select>
                   </div>
                 </div>
 
@@ -263,49 +260,49 @@
                         <form>
                           <div class="form-row">
                             <span class="inp-cert-details">Title</span>
-                            <input type="text" class="form-control" required>
+                            <input id="input-cert-title" type="text" class="form-control" required>
                             <span class="inp-cert-details p-t-25">Description</span>
-                            <textarea maxlength="150" class="form-control"></textarea>
+                            <textarea id="input-cert-desc" maxlength="150" class="form-control"></textarea>
                             <span class="inp-cert-details p-t-25">Issuing Organisation</span>
                             <div class="input-group">
                               <div class="input-group-prepend"> <span class="input-group-text"><img src="images/company.svg" alt="" class="" width="20px" height="20px"></span> </div>
-                              <input type="text" class="form-control" required>
+                              <input id="input-cert-inst" type="text" class="form-control" required>
                             </div>
                           </div>
                           <div class="form-row p-t-25">
                             <div class="col-sm-6">
                               <span class="input-cert-details">Issue Date</span>
-                              <select name="" id="" class="form-control m-t-10">
+                              <select name="" id="input-start-month" class="form-control m-t-10 month">
                                 <option selected>Month</option>
                               </select>
-                              <select name="" id="" class="form-control m-t-10">
+                              <select name="" id="input-start-year" class="form-control m-t-10 year">
                                 <option selected>Year</option>
                               </select>
                             </div>
                             <div class="col-sm-6">
                               <span class="input-cert-details">Expiration Date</span>
-                              <select name="" id="" class="form-control m-t-10">
+                              <select name="" id="input-end-month" class="form-control m-t-10 month">
                                 <option selected>Month</option>
                               </select>
-                              <select name="" id="" class="form-control m-t-10">
+                              <select name="" id="input-end-year" class="form-control m-t-10 exp-year">
                                 <option selected>Year</option>
                               </select>
                             </div>
                           </div>
                           <div class="form-row">
                             <span class="inp-cert-details p-t-25">Certification ID</span>
-                            <input type="text" class="form-control">
+                            <input id="input-cert-id" type="text" class="form-control">
                             <span class="inp-cert-details p-t-25">Certificate URL</span>
                             <div class="input-group">
                               <div class="input-group-prepend"> <span class="input-group-text">https://</span> </div>
-                              <input type="text" class="form-control" required>
+                              <input id="input-cert-url" type="text" class="form-control" required>
                             </div>
                           </div>
                         </form>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button id="inp-cert-save" type="submit" class="btn btn-primary">Save</button>
                       </div>
                     </div>
                   </div>
@@ -385,9 +382,7 @@
     </div>
   </section>
 
-  <script type="text/javascript" src="js/main.js">
-
-  </script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
