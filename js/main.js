@@ -1,4 +1,3 @@
-
 (function ($) {
     "use strict";
 
@@ -51,7 +50,7 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
-    
+
+
 
 })(jQuery);

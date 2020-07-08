@@ -89,15 +89,6 @@ a {
 .certificate:hover .edit{
   opacity: 1;
 }
-.certificate{
-  margin: 0 1rem 0.5rem 0;
-}
-
-.add-certificate-text{
-  font-size: 0.85rem;
-  text-align: center;
-  vertical-align: middle;
-}
 
 .soc-ico{
   width: 30px;
@@ -136,23 +127,4 @@ input[disabled],select[disabled]{
 .soc-link{
   display: flex;
   margin: 0 0 2rem 0;
-}
-
-.list-group-item{
-  padding: 1px 0.65rem;
-}
-
-.modal-body{
-  padding: 4% 4%;
-}
-.add-certificate-text:focus{
-  box-shadow: none;
-}
-.input-cert-details{
-  float:left;
-}
-textarea.form-control{
-  overflow-y: scroll;
-  height: 40px;
-  resize: none;
 }
